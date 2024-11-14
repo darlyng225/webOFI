@@ -1,0 +1,837 @@
+    body {
+        background-color: #995f69;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+    body{
+        background-image: url("imagenes/FONDOmoto.jpg");
+
+    }
+    .header {    
+        background-attachment: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #000000;
+        padding: 100px 100px; 
+    }
+    .header {
+        background-image: url("imagenes/CUERPOMOTO.jpg") ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-align: right;
+        
+    
+    }
+.encabezado{
+    font-size: 20px;
+}
+    .header .banner {
+        opacity: 0.5;
+        flex-grow: 1;
+       
+        max-width: 50%;
+        font-size: 70px;
+        position: relative;
+font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+
+    .header .profile {
+        width: 50px;
+        height: 50px;
+        
+        border-radius: 10%;
+        
+    }
+    .perfil{
+        background-color: #ffffff;
+        border-radius: 50px;
+        width: 140px;
+    }
+    .navegador{
+        background-color: rgb(116, 2, 2);
+    }
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+        gap: 30px;
+        padding: 29px;
+        cursor: pointer;
+        
+    }
+    .main-content :hover{
+        background-color: rgb(161, 238, 18);
+    
+    }
+    .content-block {
+        background-color: #f3daad;
+        padding: 20px;
+        border: 1px solid #f5963d;
+        border-radius: 4px;
+       
+    }
+    .articulo{
+        
+        padding: 20px;
+        margin: 30%;
+    }
+    .TODO{
+        display: flex;
+        max-width: 1000px;
+        margin: 20px auto;
+        background-color: #e4c7a3f6;
+        padding: 50px;
+        box-shadow:  0 0 10 px rgba(0, 0, 0, 1);
+        border-radius: 100px;
+    }
+    .CUADRO{
+        top: 10;
+        left: 10%;
+        flex:1;
+        padding: 0px;
+        position: relative;
+        border-radius: 30%;
+        background-color: rgb(224, 114, 10);
+       
+    }
+    .parrafo1{
+        
+        padding: 50px ;
+        flex: 3;
+        
+    }
+    .p2{
+        font-size: 30px;
+        transform: translatex(10%);
+    }
+    .boton{
+        display: block;
+        width: 100px;
+        margin: 30px auto;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(224, 114, 10);
+        color: #f4f4f4;
+        text-decoration: none;
+        
+    }
+    .boton:hover{
+        background-color: rgb(161, 238, 18);
+    
+    }
+    FOoter{
+        background-color: #000000de;
+        color: #ffffff;
+        padding: 10px 0;
+        width: 100%;
+
+    }
+    .final{
+        display: flex;
+        justify-content: space-between;
+        align-items: 800px;
+        margin: auto;
+        padding: 0 20px;
+    }
+    .logo2{
+        width: auto;
+        height: 100px;
+
+    }
+
+    
+.information {
+    background-color: #d39727;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 140px;
+    margin: 0;
+    
+}
+.information p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.information-1{
+    display: flex;
+    align-items: center center;
+}
+.information-1 h3{
+    font-size: 40px;
+    background-color: rgb(236, 227, 215);
+}
+.information-1 p{
+    font-size: 40px;
+    
+    margin-left: 5px;
+    rotate: 270deg;
+    height: 40px;
+}
+
+.information-2{
+    display: flex;
+    align-items: center center;
+}
+.information-2 h3{
+    font-size: 40px;
+    background-color: rgb(236, 227, 215);
+    
+}
+.information-2 p{
+    font-size: 40px;
+    
+    margin-left: 5px;
+    rotate: 270deg;
+    height: 40px;
+}
+.information-3{
+    display: flex;
+    align-items: center center;
+}
+.information-3 h3{
+    font-size: 40px;
+    background-color: rgb(236, 227, 215);
+}
+.information-3 p{
+    font-size: 40px;
+
+    margin-left: 5px;
+    rotate: 270deg;
+    height: 40px;
+}
+.information-4{
+    display: flex;
+    align-items: center center;
+}
+.information-4 h3{
+    font-size: 40px;
+    background-color: rgb(236, 227, 215);
+    
+}
+.information-4 p{
+    font-size: 40px;
+    
+    margin-left: 5px;
+    rotate: 270deg;
+    height: 40px;
+   
+}
+.indice{
+    rotate: 270deg;
+    font-size: 15px;
+    
+    
+}
+.libro-z{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+.linro-z h4{
+    font-size: 40px;
+    
+    margin-left: 5px;
+    rotate: 270deg;
+    height: 40px;
+}
+.libro h4{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+   
+}
+.libro-1 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+    url("imagenes/1moto.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+width: 100%;
+padding: 25px;
+}
+
+.libro-2 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+    url("imagenes/wmoto.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+width: 100%;
+padding: 20px;
+
+}
+.libro-3 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+    url("imagenes/3moto.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+width: 100%;
+padding: 15px;
+
+}
+.libro-4 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+    url("imagenes/4moto.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+width: 100%;
+padding: 10px;
+
+}
+.libro-5 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+    url("imagenes/5moto.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+width: 100%;
+padding: 5px;
+
+}
+
+.txt samp {
+    color: aqua;
+    font-size: 35px;
+
+}
+.txt h3 {
+    color: aquamarine;
+    font-size: 35px;
+
+}
+.txt p {
+    font-size: 35px;
+    color: aliceblue;
+    position: absolute;
+    rotate: 270deg;
+    top: 2200px;
+  
+}
+.z0{
+    display: block;
+    width: auto;
+    margin: 30px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(224, 114, 10, 0.2);
+    color: #f4f4f4;
+    text-decoration: none;
+    
+}
+.z0:hover{
+    background-color: rgb(161, 238, 18);
+}
+
+
+
+.nav-opcion{
+    display: inline;
+    margin: 0 1rem;
+}
+
+.hero { 
+    background: url('imagenes/mto2.jpg') no-repeat center center/cover;
+    background-image: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(12, 8, 8);
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+
+#catalogo {
+    padding: 2rem;
+    text-align: center;
+}
+
+.categorias {
+    margin-bottom: 2rem;
+}
+
+.categorias h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+.TITULO-1{
+    background-color: #c78304;
+    font-size: 40px;
+    padding: auto;
+
+}
+
+.libros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.libro {
+    background: white;
+    border: 1px solid #ddd;
+    margin: 1rem;
+    padding: 1rem;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.libro img {
+    max-width: 50%;
+    height: auto;
+}
+
+.libro h4 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+#contacto {
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+#contacto form {
+    max-width: 600px;
+    margin: auto;
+}
+
+#contacto label, #contacto input, #contacto textarea {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+#contacto button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#contacto button:hover {
+    background-color: #444;
+}
+
+.linea02{
+    border: #861400;
+    
+}
+
+.hader-content{
+    background: linear-gradient(18deg,
+    rgba(43, 42, 48, 0.5) 0%,
+    rgba(45, 44, 50, 1) 100%),
+        url(imagenes/mto1.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+    min-height: 70vh;
+    min-width: 100vh;
+    
+    }
+    .hader-txt{
+        width: 100%;
+        margin: 50px;
+    }
+    .hader-txt h2{
+        font-size: 100px;
+        color: #ddd;
+        font-family: "Bebas Nave", cursive;
+
+    }
+    .hader-txt p{
+        font-size: 16px;
+        color: #ddd;
+    }
+    .btn-1{
+        display: inline-block;
+        padding: 13px 35px;
+        background-color: #861400;   
+        color: #ddd;
+        text-transform: uppercase;
+        font-size: 14px;
+        margin-top: 35px;
+        border: 0;
+        cursor: pointer; 
+    }
+    .btn-1:hover{
+        background-color: #f5963d;
+    }
+
+
+
+    .wi{
+        text-align: center;
+            max-width: 1000px;
+            margin: 10px auto;
+            background-color: #e4c7a3f6;
+            padding: 50px;
+            color: #c92b16;
+            border-radius: 100px;
+    }
+    .wo {
+        font-size: 2.5em;
+        margin: 20px;
+        
+    }
+    .wa {
+        text-align: center;
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: #e4c7a3f6;
+            padding: 50px;
+            box-shadow:  0 0 10 px rgba(0, 0, 0, 1);
+            border-radius: 100px;
+            position: relative;
+            top: 50px;
+            left: -300px;
+    }
+    .wa1 {
+        text-align: center;
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: #e4c7a3f6;
+            padding: 50px;
+            box-shadow:  0 0 10 px rgba(0, 0, 0, 1);
+            border-radius: 100px;
+            position: relative;
+            top: 50px;
+            left: 300px;
+    }
+    .wa2 {
+        text-align: center;
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: #e4c7a3f6;
+            padding: 50px;
+            box-shadow:  0 0 10 px rgba(0, 0, 0, 1);
+            border-radius: 100px;
+            position: relative;
+            top: 50px;
+            left: -300px;
+    }
+    .wa3 {
+        text-align: center;
+            max-width: 1000px;
+            margin: 10px auto;
+            background-color: #e4c7a3f6;
+            padding: 20px;
+            box-shadow:  0 0 10 px rgba(0, 0, 0, 1);
+            border-radius: 100px;
+            position: relative;
+            top: 50px;
+            left: 200px;
+    }
+    .wu {
+        color: #c92b16;
+    }
+    .ya {
+        list-style-type: none;
+        padding: 0;
+    }
+    .ye {
+        margin-bottom: 10px;
+    }
+    .yi {
+        color: #002fff;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .image-container08 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .premio1 {
+        background: linear-gradient(18deg,
+    rgba(43, 42, 48, 0.5) 0%,
+    rgba(45, 44, 50, 1) 100%),
+        url(imagenes/caracmoto.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+    min-height: 70vh;
+    min-width: 100vh;
+    }
+    .premio2 {
+        background: linear-gradient(18deg,
+    rgba(43, 42, 48, 0.5) 0%,
+    rgba(45, 44, 50, 1) 100%),
+        url(imagenes/carac2.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+    min-height: 70vh;
+    min-width: 100vh;
+    }
+    .premio3 {
+        background: linear-gradient(18deg,
+    rgba(43, 42, 48, 0.5) 0%,
+    rgba(45, 44, 50, 1) 100%),
+        url(imagenes/carac3.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+    min-height: 70vh;
+    min-width: 100vh;
+    }
+    .premio img {
+        max-width: 100%;
+        height: auto;
+    }
+    .premio h2 {
+        color: #333333;
+    }
+    .premio p {
+        color: #666666;
+    }
+    .video {
+        text-align: center;
+        margin-top: 20px;
+        top: 30px;
+        left: 500px;
+    }
+    .wa {
+        text-align: center;
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: #e4c7a3f6;
+            padding: 50px;
+            box-shadow:  0 0 10 px rgba(0, 0, 0, 1);
+            border-radius: 100px;
+            position: relative;
+            top: 30px;
+            left: -300px;
+    }
+    .wa11 {
+        text-align: center;
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: #fcfaf9a8;
+            padding: 50px;
+            box-shadow:  0 0 10 px rgba(0, 0, 0, 1);
+            border-radius: 100px;
+            position: relative;
+            top: 50px;
+            left: 300px;
+    }
+    .wa22 {
+        text-align: center;
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: #fffefca4;
+            padding: 50px;
+            box-shadow:  0 0 10 px rgba(0, 0, 0, 1);
+            border-radius: 100px;
+            position: relative;
+            top: 50px;
+            left: -300px;
+    }
+    .wa33 {
+        text-align: center;
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: #fffefca4;
+            padding: 50px;
+            box-shadow:  0 0 10 px rgba(0, 0, 0, 1);
+            border-radius: 100px;
+            position: relative;
+            top: 50px;
+            left: 300px;
+    }
+
+    .btn-2{
+        display: 16px;
+        padding: 11px 35px;
+        background-color: #d67418;
+        color: #ffffffde;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    .btn-2 :hover{
+        background-color: #51e00f;
+    }
+    .coffee{
+        padding: 100px 0;
+        background-color: #f3dbad;
+        position: relative;
+
+    }
+    .coffee-content{
+        text-align: center;
+    }
+    .coffee-content h2{
+        font-size: 55px;
+        line-height: 70px;
+        color: #333333;
+        text-transform: uppercase;
+        padding: 0 250px;
+        margin-bottom: 15px;
+    }
+    .TXT-P{
+        font-size: 16px;
+        color: #333333;
+        padding: 0 250px;
+        margin-bottom: 35px;
+    }
+    .coffee-group{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .coffee-1{
+        padding: 25px;
+    }
+    .coffee-1 img{
+        width: 200px;
+        border-radius: 40px;
+    }
+    .coffee-img{
+        position: absolute;
+        top: 0;
+        right: 0;
+        
+    }
+    .coffee-1{
+        font-size: 15px;
+        color: #666666;
+        margin-bottom: 15px;
+    }
+    
+    .services{
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+            url(imagenes/cascofondo.jpg);
+           background-position: center center; 
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-attachment: fixed;
+           padding: 100px 0;
+
+    }
+    .services-content{
+        text-align: center;
+
+    }
+    .services-content h2{
+        font-size: 55px;
+        line-height: 70px;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+
+    }
+.services-content p{
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 100px;
+    padding: 0 100px;
+}
+.services-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+.services-1{
+    padding: 0 100px;
+
+}
+.services-1 img{
+    width: 75px;
+    margin-bottom: 25px;
+    border-radius: 100px;
+
+}
+.services-1 h3{
+    color: #ffffff;
+    font-size: 18px;
+}
+.general{
+    display: flex;
+}
+.general-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #ffffff;
+
+}
+.general-2{
+    background-image: url(imagenes/unomoto.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.general-3{
+    background-image: url(imagenes/dosmoto.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+}
+.general h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.general p{
+    font-size: 13px;
+    color: #333;
+    margin: 25px 0 45px 0;
+}
